@@ -1,0 +1,294 @@
+<!-- para inicia uma pagina web usa-se o codigo html - 5-->
+  <!-- comentarios que eu posso fazer usando esses codego-->
+  <!DOCTYPE html>
+  <html>
+      <head>
+              <!-- meta são tags que são configurações basicas da web ex: compatibilidade de navegador m caracteris-->
+          <!--usado para aparecer caracteres em outros idiomas-->
+          <meta charset="UTF-8" /> 
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <!--usado para a tela se ajudas nos aparelhos cel ou pc-->
+          <meta name="viewport" content="windth=divece-width, initial-scale=1.0" /> 
+          <meta name="description" content="texto descritivo da pagina web" />
+          <meta name="author" content="Oyexiener" />
+          <!-- incluir bootstrap css copiando o codigo no site e colndo aqui no head-->
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+          <!--incluir bootstrap js -->
+          <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+          <style>
+              body{background-color: rgb(34, 33, 33);}
+              div,li, main{ display: inline;text-align: center;color: azure;  }
+              h1,h2,h3,h4,h5,p,a{
+                  font-family: Verdana, Geneva, Tahoma, sans-serif; color: azure; }
+          </style>
+  
+          <title>Gama Academy - Projeto Paiter</title>
+  
+  <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" type="text/css" href="estilos.css" />
+  
+          <style>
+              .cinza{ background-color: grey ; }
+          </style>
+  
+          
+  <!--para adicionar um alerta na pagina tem que add o script de javascrit como abaixo-->
+          <script type="text/javascript">
+              alert("Seja bem vindos a Gama Academy")
+          </script>
+  <main>
+      <!-- informações do corpo da pagina web-->
+      <body>
+          <!--Criar um menu para a pagina, utilizando conteiner -->
+          <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
+                         
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                            <span class="navbar-toggler-icon"></span>
+                        </button> <a class="navbar-brand" href="#">GAMA ACADEMY</a>
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                     <a class="nav-link" href="Inicio.html"><span class="sr-only">home</span></a>
+                                </li>
+                                <li class="nav-item">
+                                     <a class="nav-link" href="contato.html">Contato</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown">Informações</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                         <a class="dropdown-item" href="Bitcoin.html">Bitcoin</a> <a class="dropdown-item" href="Etherium.html">Etherium</a> <a class="dropdown-item" href="Theter.html">Theter</a>
+                                        <div class="dropdown-divider">
+                                        </div> <a class="dropdown-item" href="#">informações</a>
+                                        
+                                    </div>
+                                </li>
+                            </ul>
+                           
+                            </form>
+                                </div>
+                                </li>
+                            </ul>
+                        </div>
+          </div>
+      </body>
+     <center><img src="img/GAMA.png" alt="gama_logo">
+     </center> 
+  <!--h1 é a fonte de titulo aumenta a letra de tamanho-->
+      <h1>GAMA ACADEMY </h1>
+      <!-- h2 é o texto da pagina tamanho menor que o h1-->
+      <!-- são paragrafos <P>>-->
+         <p> Transformamos o mercado digital com educação prática e foco total em empregabilidade. Conquiste um novo emprego no mercado de tecnologia em apenas 6 meses. Vem pra Gama. Pague Depois de Empregado. Cursos Gama Academy.
+          <!-- para coloca umm link devese coloca <a href o link e se quiser que abra na mesma aba coloque self se for em outra aba coloque blank-->
+              <a href="https://www.gama.academy/" title="Site Paiter" target="_self"> 
+                  <center>
+                  <span>Conheça nosso site oficial:</span><button>Gama</button><br></a>
+                  <br>
+  </h1>
+  </center>
+  <style>
+      body{
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          }
+      
+      h1,span{color: azure;}
+
+  </style>
+  <!--inserir carrosel do bootstraps-->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner" >
+        <div class="carousel-item active">
+          <img src="img/bitcoin.jpg" class="d-block w-100" alt="..." >
+        </div>
+        <div class="carousel-item">
+          <img src="img/ethereum.jpg" class="d-block w-100" alt="..." >
+        </div>
+        <div class="carousel-item">
+          <img src="img/theter.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Proximo</span>
+        <br>
+      </button>
+    </div>
+    <center> 
+            </p>
+        </div>
+    </div>
+</div>
+<li><h1>Conheça as Maiores moedas do mercado:</h1>
+    <br><br><br>
+<div class="row">
+    <div class="col-md-4">
+        <h2>
+           <a href="Bitcoin.html">BITCOIN</a> 
+        </h2>
+        <p>
+            O que é bitcoin e como funciona essa moeda virtual? O bitcoin é, basicamente, uma criptomoeda digital descentralizada. Saiba o que isso significa.
+        </p>
+        <p>
+            <a class="btn" href="Bitcoin.html">Ver detalhes "</a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>
+          <a href="Etherium.html"> ETHEREUM</a> 
+        </h2>
+        <p>
+            Ethereum é uma plataforma que permite a programação de aplicativos descentralizados, contratos inteligentes e transações da criptomoeda Ether e vários tokens. 
+        </p>
+        <p>
+            <a class="btn" href="Etherium.html">Ver detalhes "</a>
+        </p>
+    </div>
+    <div class="col-md-4">
+        <h2>
+           <a href="Theter.html">THETER</a> 
+        </h2>
+        <p>
+            O que é Tether Dólar (USDT)?
+O USD Tether (Dólar Tether ou USDT) é uma stablecoin com colaterização em moedas fiduciárias, também chamadas de moedas IOU ("Eu Te Devo"). 
+        </p>
+        <p>
+            <a class="btn" href="Theter.html">Ver detalhes "</a>
+        </p>
+    </div>
+</div>
+</div>
+<div></center>
+    <h2 class="withCryptoVideo">
+        <a href="#">Principais criptomoedas</a>
+        </h2>
+
+    <div class="cryptocurrency-table-block">
+    <div class="cryptocurrency-table-loader displayNone">
+    </div>
+    <div id="DataTables_Table_0_wrapper" class="dataTables_wrapper no-footer"><table class="genTbl js-top-crypto-table mostActiveStockTbl crossRatesTbl allCryptoTlb wideTbl elpTbl elp15  dataTable no-footer" tablesorter="" id="DataTables_Table_0">
+    <thead>
+<center>
+    <tr><th class="rank sorting sorting_asc" title="Number" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-sort="ascending" aria-label="# : activate to sort column descending" style="width: 300px;"># <span class="headerSortDown newSiteIconsSprite"></span></th><th class="flag sorting_disabled" rowspan="1" colspan="1" aria-label="" style="width: 35px;"></th><th class="left elp name first sorting" title="Nome" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="
+    Nome
+    : activate to sort column ascending" style="width: 146px;">
+    Nome<span class="headerSortDefault newSiteIconsSprite"></span>
+    </th><th class="left elp symb noWrap sorting" title="Código" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="
+    Código
+    : activate to sort column ascending" style="width: 68px;">
+    Código<span class="headerSortDefault newSiteIconsSprite"></span>
+    </th><th class="last js-price-header filters sorting" title="Preço (USD)" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="
+    Preço (USD)
+    
+    : activate to sort column ascending" style="width: 101px;">
+    <span class="js-price-header-span">Preço (USD)</span>
+    <span class="headerSortDefault newSiteIconsSprite"></span>
+    <span class="js-table-filter-container tableFilter inlineblock middle" style="">
+    <i class="tableFilterIcon js-filter-icon"></i></span></th><th title="Capitalização" class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="
+    Capitalização
+    : activate to sort column ascending" style="width: 106px;">
+    Capitalização<span class="headerSortDefault newSiteIconsSprite"></span>
+    <span class="js-table-filter-container tableFilter inlineblock middle" style="">
+    <i class="tableFilterIcon js-filter-icon"></i></span></th><th title="Vol. (24h)" class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="
+    Vol. (24h)
+    : activate to sort column ascending" style="width: 106px;">
+    Vol. (24h)<span class="headerSortDefault newSiteIconsSprite"></span>
+    <span class="js-table-filter-container tableFilter inlineblock middle" style="">
+    <i class="tableFilterIcon js-filter-icon"></i></span></th><th title="Vol. Total" class="sorting" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="
+    Vol. Total
+    : activate to sort column ascending" style="width: 106px;">
+    Vol. Total<span class="headerSortDefault newSiteIconsSprite"></span>
+    <span class="js-table-filter-container tableFilter inlineblock middle" style="">
+    <i class="tableFilterIcon js-filter-icon"></i></span></th><th class="chgPer sorting" title="Var (24h)" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="
+    Var (24h)
+    : activate to sort column ascending" style="width: 106px;">
+    Var (24h)<span class="headerSortDefault newSiteIconsSprite"></span>
+    <span class="js-table-filter-container tableFilter inlineblock middle" style="">
+    <i class="tableFilterIcon js-filter-icon"></i></span></th><th class="chgPer sorting" title="Var (7d)" tabindex="0" aria-controls="DataTables_Table_0" rowspan="1" colspan="1" aria-label="
+    Var (7d)
+    : activate to sort column ascending" style="width: 106px;">
+    Var (7d)<span class="headerSortDefault newSiteIconsSprite"></span>
+    <span class="js-table-filter-container tableFilter inlineblock middle" style="">
+    <i class="tableFilterIcon js-filter-icon"></i></span></th></tr></center>
+    </thead>
+    <tbody>
+    <tr class="odd">
+    <td class="rank icon sorting_1">1</td>
+    <td class="flag">
+    <i class="cryptoIcon c_bitcoin middle"></i>
+    </td>
+    <td class="left bold elp name cryptoName first js-currency-name" title="Bitcoin">
+    <a href="Bitcoin.html">Bitcoin</a> </td>
+    <td class="left noWrap elp symb js-currency-symbol" title="BTC">BTC</td>
+    <td class="price js-currency-price" title="BTC"><a class="pid-1057391-last" href="#">21.276,7</a></td>
+    <td class="js-market-cap" data-value="405991656486.44446">$405,99B</td>
+    <td class="js-24h-volume" data-value="24346956472.305363">$24,35B</td>
+    <td class="js-total-vol">39,87%</td>
+    <td class="js-currency-change-24h greenFont pid-1057391-pcp">+2,17%</td>
+    <td class="js-currency-change-7d redFont">-1,52%</td>
+    </tr><tr class="even">
+    <td class="rank icon sorting_1">2</td>
+    <td class="flag">
+    <i class="cryptoIcon c_ethereum middle"></i>
+    </td>
+    <td class="left bold elp name cryptoName first js-currency-name" title="Ethereum">
+    <a href="Etherium.html">Ethereum</a> </td>
+    <td class="left noWrap elp symb js-currency-symbol" title="ETH">ETH</td>
+    <td class="price js-currency-price" title="ETH"><a class="pid-1061443-last" href="#">1.367,77</a></td>
+    <td class="js-market-cap" data-value="166075828775.87473">$166,08B</td>
+    <td class="js-24h-volume" data-value="18497298275.52253">$18,50B</td>
+    <td class="js-total-vol">30,29%</td>
+    <td class="js-currency-change-24h greenFont pid-1061443-pcp">+11,11%</td>
+    <td class="js-currency-change-7d greenFont">+12,29%</td>
+    </tr><tr class="odd">
+    <td class="rank icon sorting_1">3</td>
+    <td class="flag">
+    <i class="cryptoIcon c_tether middle"></i>
+    </td>
+    <center><td class="left bold elp name cryptoName first js-currency-name" title="Tether">
+    <a href="Theter.html">Tether</a> </td>
+    <td class="left noWrap elp symb js-currency-symbol" title="USDT">USDT</td>
+    <td class="price js-currency-price" title="USDT"><a class="pid-1061453-last" href="#">1,0002</a></td>
+    <td class="js-market-cap" data-value="65863541632.68785">$65,86B</td>
+    <td class="js-24h-volume" data-value="44168976742.45115">$44,17B</td>
+    <td class="js-total-vol">72,34%</td>
+    <td class="js-currency-change-24h greenFont pid-1061453-pcp">+0,04%</td>
+    <td class="js-currency-change-7d redFont">+0,03%</td>
+    </tr><tr class="even">
+    <td class="flag">
+    <i class="cryptoIcon c_usd-coin middle"></i>
+    </td></center>
+    </tr></tbody>
+    </table><div class="arial_12 js-pagination-wrapper" id="paginationWrap">
+  </div></div></div>
+    </div>
+    </div><br><br><br>
+</center>
+  <img src="img/TURMA.jpg" alt="Turma da gama academy">
+              </p>
+              <!-- são paragrafos <P>>-->
+              <p> praticando com as aulas gravadas da <a href="https://app.gama.academy/jornada/6fb4d4-cripto-dev-fase-2/playlist/aa948bb6-36bc-412d-928c-26bce7d62456/aula/9/" title="GAMA"> Gama</a> 
+ 
+                <address>
+                    <strong>Twitter, Inc.</strong><br /> 795 Folsom Ave, Suite 600<br /> San Francisco, CA 94107<br /> <abbr title="Telefone">P:</abbr> (123) 456-7890
+               </address>
+               <div class="jumbotron">
+ 
+            </main>
+  
+  
+      </head>
+  
+  
+  </html>
